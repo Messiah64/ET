@@ -1,7 +1,6 @@
 import gspread
 import streamlit as st
 import json
-from google.oauth2 import service_account
 # Load service account credentials from Streamlit secrets
 
 key_dict = json.loads(st.secrets["textkey"])
